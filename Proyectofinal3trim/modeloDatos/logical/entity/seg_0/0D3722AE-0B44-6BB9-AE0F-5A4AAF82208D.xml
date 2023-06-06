@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D3722AE-0B44-6BB9-AE0F-5A4AAF82208D" name="ESTADIOS">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>3C152D85-AD34-8D2A-9AEF-E8F3757B0B60</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id Estadio" id="AEA465B7-91AC-D290-FC01-9094F52DA3BC">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>F42162F2-E283-BF36-484F-77E1E89CE6C2</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="4835EC41-6919-CCED-4579-0833B034DCE6">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>313E60B3-D138-0622-E359-D233B80027AC</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ciudad" id="CED18D82-20F1-F9DD-31CF-016BDD848634">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>06AFA92E-AED9-7F69-51E6-4FFDD2877326</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Capacidad" id="74DDDBA9-C601-0BDB-7A47-4FEA0E1354AB">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>B73AAFB8-D295-D2CF-40C4-FDAD8B716876</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Construccion" id="A36333DC-D1DC-4B7A-D5C4-A568675FEB29">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>95A3D116-4AF0-F51C-3217-482C901D343B</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Partido" id="FB2B5637-4931-9D44-1E45-32F50CCB87CD">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 09:38:04 UTC</createdTime>
+<generatorID>219B12C9-09AF-53B8-A3FE-AAACD7D49475</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<referedAttribute>EB76342E-E89F-392C-D4A0-4ADC33FB1F49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE94ABE8-75CB-0D8E-5A53-3B13EC208B74" name="ESTADIOS PK">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>AA72B7B4-FE0A-B54E-706F-4689AC496BEB</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AEA465B7-91AC-D290-FC01-9094F52DA3BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

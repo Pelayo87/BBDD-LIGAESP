@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="455CA133-8352-2139-083A-90194CCBD1A0" name="JUGADOR">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>540BFBD7-8304-8950-4C59-C85664FFFD51</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Apellidos" id="EB27E159-05A0-790F-8557-69DBBF4AFAF3">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>DF8F7EE2-26CF-E97E-D1F3-D4463C5EE7E4</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="267DF853-3EA8-41AE-EE9F-BDAEEEA3FB9C">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>04D3581B-E688-6225-0432-0EFD1DC09BF6</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero" id="EBF819B7-204D-8936-E895-A044E2356168">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>BB767BDE-A842-EC85-3643-6D30C47D09D0</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Edad" id="5F8E7B9A-5FFE-AAA3-D783-895CEAC7AD57">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>B37C6C52-F243-5313-6372-D331F98077E1</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Posicion" id="95577A4E-1E5F-D3EC-4CD4-592E342B78E9">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>8F3B54A5-D426-5AD0-15F5-0A4D3318E95F</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Jugador" id="2AC8865C-B23B-C950-6A3E-CC70B650F955">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 09:38:04 UTC</createdTime>
+<generatorID>FB60CAD4-6305-708B-B3C0-D694990300DD</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15535F43-EC01-2BEB-7CD3-8B44D266C953" name="JUGADOR PK">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>D2ECD69D-85D8-E77D-9CC9-C461491B71F3</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2AC8865C-B23B-C950-6A3E-CC70B650F955</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

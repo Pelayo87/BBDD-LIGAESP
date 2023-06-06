@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C152D85-AD34-8D2A-9AEF-E8F3757B0B60" name="ESTADIOS">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-27 17:52:00 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Estadio" id="F42162F2-E283-BF36-484F-77E1E89CE6C2">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:04:35 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="313E60B3-D138-0622-E359-D233B80027AC">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:04:35 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad" id="06AFA92E-AED9-7F69-51E6-4FFDD2877326">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:04:35 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacidad" id="B73AAFB8-D295-D2CF-40C4-FDAD8B716876">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:04:35 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Construccion" id="95A3D116-4AF0-F51C-3217-482C901D343B">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:04:35 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA72B7B4-FE0A-B54E-706F-4689AC496BEB" name="ESTADIOS_PK">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:04:35 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F42162F2-E283-BF36-484F-77E1E89CE6C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="540BFBD7-8304-8950-4C59-C85664FFFD51" name="JUGADOR">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-27 17:45:06 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Apellidos" id="DF8F7EE2-26CF-E97E-D1F3-D4463C5EE7E4">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-27 17:48:31 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="04D3581B-E688-6225-0432-0EFD1DC09BF6">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-27 17:49:34 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="BB767BDE-A842-EC85-3643-6D30C47D09D0">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 16:56:33 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Edad" id="B37C6C52-F243-5313-6372-D331F98077E1">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 16:56:33 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Posicion" id="8F3B54A5-D426-5AD0-15F5-0A4D3318E95F">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 16:56:33 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Jugador" id="FB60CAD4-6305-708B-B3C0-D694990300DD">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-03 17:15:15 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQUIPOS_Clave_Equipo" id="7B1784CA-3BD5-66EB-A57A-1EAE2318B648">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-14 07:33:14 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="864CFCF0-672E-8C7C-AE62-406F821CB2E8" referredColumn="8C3D0548-97CE-5CC8-89E5-632ED63F71B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2ECD69D-85D8-E77D-9CC9-C461491B71F3" name="JUGADOR_PK">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-27 17:49:18 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB60CAD4-6305-708B-B3C0-D694990300DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BABA224-2FED-FE05-C5EC-61E69D4A62E9" name="JUGADOR_EQUIPOS_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-14 07:33:14 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B1784CA-3BD5-66EB-A57A-1EAE2318B648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

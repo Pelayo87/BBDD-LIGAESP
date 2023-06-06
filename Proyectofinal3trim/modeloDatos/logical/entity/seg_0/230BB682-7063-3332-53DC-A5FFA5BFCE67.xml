@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="230BB682-7063-3332-53DC-A5FFA5BFCE67" name="LESIONES">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>D8D4C2FD-F650-BEE5-71B2-65BADF3D6ABA</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Tipo" id="69B9EFA1-7DB8-C7A4-4C22-89CB81A0105A">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>A0BD138F-2E68-9985-EE55-E8CA67D818A0</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="6FE43457-5EB7-CCCC-B14D-EBB15CB8FB76">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>D138FDAD-734A-87D3-457A-F1D2ACE96164</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo Lesion" id="A28B5499-3A3D-4EBB-BFE4-4C4D2FAA5A79">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 09:38:04 UTC</createdTime>
+<generatorID>F399A3FA-B0EC-AE6F-4569-77958325FD83</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JUGADOR Id Jugador" id="78726A4F-8361-BBB9-B9F2-F30FA92FC670">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 09:38:04 UTC</createdTime>
+<generatorID>FAC064D2-DC41-B219-E86C-6EF119B94548</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<referedAttribute>2AC8865C-B23B-C950-6A3E-CC70B650F955</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05CEBF1F-01FA-2873-D7C1-DBC847D25BBA" name="LESIONES PK">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>9D65AE9A-36B2-6DDA-49EF-1B7549FA2744</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A28B5499-3A3D-4EBB-BFE4-4C4D2FAA5A79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

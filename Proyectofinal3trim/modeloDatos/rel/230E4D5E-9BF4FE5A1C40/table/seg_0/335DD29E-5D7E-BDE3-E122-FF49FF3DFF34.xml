@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="335DD29E-5D7E-BDE3-E122-FF49FF3DFF34" name="Competir">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:54:20 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<ordsAlias>relation_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PARTIDOS_Id_Partido" id="3E971550-4F16-45D2-BB4B-62A161D6487A">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:54:20 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBCFAE07-D898-1D67-AD41-0CC3300CF3F4" referredColumn="344646F0-1821-ABF9-C45F-BBD7EA0B26F8"/>
+</associations>
+</Column>
+<Column name="EQUIPOS_Clave_Equipo" id="B867E4EB-E83C-8F0D-89FD-4F296091BDBB">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:54:20 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE40CE44-1A29-349D-CB5E-48DBAB21A5F5" referredColumn="8C3D0548-97CE-5CC8-89E5-632ED63F71B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66515767-6B69-B4BC-F32A-AF36C0FE29CE" name="Relation_17_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:54:20 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E971550-4F16-45D2-BB4B-62A161D6487A"/>
+<colUsage columnID="B867E4EB-E83C-8F0D-89FD-4F296091BDBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B251269-775A-41AF-12F0-2FB6EFD6C332" name="Competir_PARTIDOS_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:54:20 UTC</createdTime>
+<generatorID>766E8E47-1D29-27BC-C0CF-39B98ECAC02E</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E971550-4F16-45D2-BB4B-62A161D6487A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4433BD8-9038-B10B-5E07-AC9D8B351E92" name="Competir_EQUIPOS_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:54:20 UTC</createdTime>
+<generatorID>766E8E47-1D29-27BC-C0CF-39B98ECAC02E</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B867E4EB-E83C-8F0D-89FD-4F296091BDBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CF41F25-7D78-BE91-CB78-CE6B4BC6CE6B" name="PARTIDOS">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-27 17:51:01 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Partido" id="344646F0-1821-ABF9-C45F-BBD7EA0B26F8">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:02:18 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="6ECDAE08-77AF-CD17-71B8-26E2CD59D1FC">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:02:18 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora" id="90B27138-2BA2-6EB9-34AA-5A57740BB482">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:02:18 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Goles_Local" id="0ED4E0C3-5B65-684F-77AF-B8AD41F52C41">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:02:18 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Goles_Visitante" id="FA121C69-9CE8-0666-02E4-8A475C27B4A9">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:02:18 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADIOS_Id_Estadio" id="9F10AE95-7874-7B32-BCCC-A0B717A99283">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-14 07:36:39 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51295A3A-F135-30E9-35DB-E95E7D5DC500" referredColumn="F42162F2-E283-BF36-484F-77E1E89CE6C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C62F7A95-3001-3A87-1F14-F74BCE6EDA33" name="PARTIDOS_PK">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:02:18 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="344646F0-1821-ABF9-C45F-BBD7EA0B26F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5D79177-E05C-9B79-B3D2-D76092AB8278" name="PARTIDOS_ESTADIOS_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-14 07:36:39 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F10AE95-7874-7B32-BCCC-A0B717A99283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

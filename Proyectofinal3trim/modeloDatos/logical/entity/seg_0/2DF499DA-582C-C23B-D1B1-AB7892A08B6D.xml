@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2DF499DA-582C-C23B-D1B1-AB7892A08B6D" name="EQUIPOS">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>342AD501-4315-8E6B-461E-21F2C95FA288</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre" id="C093EF3A-CA2F-BED0-3EB8-6504FD675B3F">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>7547972D-D323-8333-BF06-767627064039</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ciudad" id="14BA1D7B-5601-BFB2-09AB-804D0DD81A35">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>A63889C0-90D9-FB8C-E028-24F71B5A7583</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Entrenador" id="7C10B266-1EB3-562D-4BC5-7108CD2AE594">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>AEE732BE-F360-03CB-002E-1B9066FF8397</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Creacion" id="9C7437CE-DA6D-88CC-1BC5-D03D58CD2FE5">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>440765BC-D3C8-91A8-E2A4-6AD775B1A0DE</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave Equipo" id="209DDE42-572E-2729-79E8-4204A792C48B">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 09:38:04 UTC</createdTime>
+<generatorID>8C3D0548-97CE-5CC8-89E5-632ED63F71B5</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JUGADOR Id Jugador" id="29290AAE-25CF-8053-DDF7-0DB2F7ED0DDF">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 09:38:04 UTC</createdTime>
+<generatorID>B81963D9-E226-28FB-AA47-37EBFC818649</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<referedAttribute>2AC8865C-B23B-C950-6A3E-CC70B650F955</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

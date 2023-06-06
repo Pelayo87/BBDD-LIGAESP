@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LESIONES JUGADOR FK" directorySegmentName="seg_0" id="FAC064D2-DC41-B219-E86C-6EF119B94548">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 07:57:17 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<sourcePk>15535F43-EC01-2BEB-7CD3-8B44D266C953</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>455CA133-8352-2139-083A-90194CCBD1A0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>230BB682-7063-3332-53DC-A5FFA5BFCE67</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

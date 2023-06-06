@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E8C000A-E0C9-84E4-7446-59BD2435B11B" name="Recibe">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:54:20 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AMONESTACIONES_Id_Amonestacion" id="A4EE911F-109C-60BD-E54E-B0941E7D23BC">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:54:20 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1ACDD816-A95F-222C-B0CD-3912899A5C5E" referredColumn="9E206BCB-CC6F-B92F-942E-670AB5C96B74"/>
+</associations>
+</Column>
+<Column name="JUGADOR_Id_Jugador" id="5B624302-AED3-0B60-A04C-B56B958B773A">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:54:20 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4287551B-4530-8F39-BC58-F99262D93F6B" referredColumn="FB60CAD4-6305-708B-B3C0-D694990300DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C655752F-5B90-337D-1B3B-8DD3290D2E7B" name="Recibe_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:54:20 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4EE911F-109C-60BD-E54E-B0941E7D23BC"/>
+<colUsage columnID="5B624302-AED3-0B60-A04C-B56B958B773A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBD62EC8-D445-7DCF-341B-1B136A552CDC" name="Recibe_AMONESTACIONES_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:54:20 UTC</createdTime>
+<generatorID>98BC7359-2B91-C4EC-933B-1634E1DEF5EB</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4EE911F-109C-60BD-E54E-B0941E7D23BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8C4A46A-4BB4-FE96-3DD8-40459A3B365B" name="Recibe_JUGADOR_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:54:20 UTC</createdTime>
+<generatorID>98BC7359-2B91-C4EC-933B-1634E1DEF5EB</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B624302-AED3-0B60-A04C-B56B958B773A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

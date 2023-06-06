@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PARTIDOS ESTADIOS FK" directorySegmentName="seg_0" id="219B12C9-09AF-53B8-A3FE-AAACD7D49475">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:42:42 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<sourcePk>706F3370-E920-0E21-EDDE-345DFD5481D9</sourcePk>
+<targetPk>EE94ABE8-75CB-0D8E-5A53-3B13EC208B74</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AE80C534-5939-6B7E-987D-552A994E6592</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0D3722AE-0B44-6BB9-AE0F-5A4AAF82208D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

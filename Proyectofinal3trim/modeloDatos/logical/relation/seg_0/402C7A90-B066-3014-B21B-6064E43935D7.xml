@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AMONESTACIONES PARTIDOS FK" directorySegmentName="seg_0" id="402C7A90-B066-3014-B21B-6064E43935D7">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 07:58:45 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<sourcePk>706F3370-E920-0E21-EDDE-345DFD5481D9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AE80C534-5939-6B7E-987D-552A994E6592</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2BBD5A31-E500-3344-AA7F-91ECA4E2954A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

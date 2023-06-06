@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C99E7712-A209-2F25-8F94-C661ED4925F8" name="AMONESTACIONES">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-27 17:51:38 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Amonestacion" id="9E206BCB-CC6F-B92F-942E-670AB5C96B74">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 16:58:11 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="6291D050-2F11-8381-3007-A4E1FEF4AE99">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 16:58:11 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTIDOS_Id_Partido" id="658C1399-067C-00F3-75E0-1664E6FE0964">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-14 07:34:46 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F148C72E-F6B4-EC7F-0E16-C935ACCABE8F" referredColumn="344646F0-1821-ABF9-C45F-BBD7EA0B26F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="860AA465-2EBD-4832-6600-22EFB7FD694D" name="AMONESTACIONES_PK">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 16:58:11 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E206BCB-CC6F-B92F-942E-670AB5C96B74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B829A8C5-944A-1D19-FF1D-F0AFDC6894F5" name="AMONESTACIONES_PARTIDOS_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-14 07:34:46 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="658C1399-067C-00F3-75E0-1664E6FE0964"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE80C534-5939-6B7E-987D-552A994E6592" name="PARTIDOS">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>3CF41F25-7D78-BE91-CB78-CE6B4BC6CE6B</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fecha" id="2F74A30B-F0F6-D9E2-EB02-8A94D9742F98">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>6ECDAE08-77AF-CD17-71B8-26E2CD59D1FC</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora" id="078FF522-323A-7613-5B2A-BC912847B4B7">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>90B27138-2BA2-6EB9-34AA-5A57740BB482</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Goles Local" id="32FFE451-46EA-9467-9D5D-7D6FA07EAFAE">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>0ED4E0C3-5B65-684F-77AF-B8AD41F52C41</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Goles Visitante" id="0A3EFBFC-2A1D-BCD9-5CE7-B1C9B363CA53">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>FA121C69-9CE8-0666-02E4-8A475C27B4A9</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Partido" id="EB76342E-E89F-392C-D4A0-4ADC33FB1F49">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 09:38:04 UTC</createdTime>
+<generatorID>344646F0-1821-ABF9-C45F-BBD7EA0B26F8</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="706F3370-E920-0E21-EDDE-345DFD5481D9" name="PARTIDOS PK">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-10 17:03:51 UTC</createdTime>
+<generatorID>C62F7A95-3001-3A87-1F14-F74BCE6EDA33</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB76342E-E89F-392C-D4A0-4ADC33FB1F49</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

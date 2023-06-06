@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="342AD501-4315-8E6B-461E-21F2C95FA288" name="EQUIPOS">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-27 17:50:47 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Clave_Equipo" id="8C3D0548-97CE-5CC8-89E5-632ED63F71B5">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 16:59:33 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="7547972D-D323-8333-BF06-767627064039">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:00:29 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad" id="A63889C0-90D9-FB8C-E028-24F71B5A7583">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:00:29 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Entrenador" id="AEE732BE-F360-03CB-002E-1B9066FF8397">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:00:29 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Creacion" id="440765BC-D3C8-91A8-E2A4-6AD775B1A0DE">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:00:29 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE421E0A-DC59-095D-9B63-5D60C10BF9DB" name="EQUIPOS_PK">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-28 17:00:29 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C3D0548-97CE-5CC8-89E5-632ED63F71B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

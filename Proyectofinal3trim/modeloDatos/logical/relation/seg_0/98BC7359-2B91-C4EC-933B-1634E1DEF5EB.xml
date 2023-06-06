@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Recibe" directorySegmentName="seg_0" id="98BC7359-2B91-C4EC-933B-1634E1DEF5EB">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-11 19:02:29 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2BBD5A31-E500-3344-AA7F-91ECA4E2954A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>455CA133-8352-2139-083A-90194CCBD1A0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

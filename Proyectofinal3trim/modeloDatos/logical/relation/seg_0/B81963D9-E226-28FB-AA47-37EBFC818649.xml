@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EQUIPOS JUGADOR FK" directorySegmentName="seg_0" id="B81963D9-E226-28FB-AA47-37EBFC818649">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-05-11 19:00:18 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<sourcePk>15535F43-EC01-2BEB-7CD3-8B44D266C953</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>455CA133-8352-2139-083A-90194CCBD1A0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2DF499DA-582C-C23B-D1B1-AB7892A08B6D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

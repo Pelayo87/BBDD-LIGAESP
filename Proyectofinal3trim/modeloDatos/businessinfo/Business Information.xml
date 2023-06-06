@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="FE57D343-AB8D-BA41-AA95-33801A4CC0D2">
+<createdBy>vespertino</createdBy>
+<createdTime>2023-04-27 17:39:40 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

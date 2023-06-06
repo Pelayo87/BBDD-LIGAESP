@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Competir" directorySegmentName="seg_0" id="766E8E47-1D29-27BC-C0CF-39B98ECAC02E">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:40:26 UTC</createdTime>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<engineerTo>
+<item key="230E4D5E-3091-A5D0-F832-9BF4FE5A1C40" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AE80C534-5939-6B7E-987D-552A994E6592</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2DF499DA-582C-C23B-D1B1-AB7892A08B6D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

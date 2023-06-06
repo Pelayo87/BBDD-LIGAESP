@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1ACDD816-A95F-222C-B0CD-3912899A5C5E" containerWithKeyObject="6E8C000A-E0C9-84E4-7446-59BD2435B11B" localFKIndex="BBD62EC8-D445-7DCF-341B-1B136A552CDC" name="Recibe_AMONESTACIONES_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2023-05-12 08:54:20 UTC</createdTime>
+<generatorID>98BC7359-2B91-C4EC-933B-1634E1DEF5EB</generatorID>
+<ownerDesignName>modeloDatos</ownerDesignName>
+<referredTableLongName>AMONESTACIONES</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>C99E7712-A209-2F25-8F94-C661ED4925F8</referredTableID>
+<keyObject>860AA465-2EBD-4832-6600-22EFB7FD694D</keyObject>
+<referredKeyID>860AA465-2EBD-4832-6600-22EFB7FD694D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Amonestacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
